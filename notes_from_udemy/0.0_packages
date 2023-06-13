@@ -1,0 +1,9 @@
+npm pakages for this project
+
+mongooose,
+morgan, 
+body parser, 
+cookieParser
+
+uuid
+express validator

@@ -1,0 +1,24 @@
+JWT json web token
+
+ npm i express-jwt jsonwebtoken
+
+ //to generate signed token
+ const  jwt = reqire('jsonwebtoken'); 
+
+//for authorization check
+const expressJwt = require('express-jwt);
+
+JWT_SECRET = jlkhsdgjdkdfj0kjgkj //in .env
+
+const token =jwt.sing({_id:user._id}.process.env_JWT_SECRET)
+
+res.cooke('t', token,{expire:new Date()+9999})
+
+const {_id,name,emai,role} = user;
+
+return res.json({token, user:{_id,email,name,role}})
+
+
+
+
+

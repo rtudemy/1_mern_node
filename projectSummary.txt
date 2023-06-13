@@ -1,0 +1,13 @@
+DATABASE=mongodb+srv://admin:admin@cluster0.acn0y.mongodb.net/nodeecomdb;
+
+
+//check network access if 
+MongoNetworkError: failed to connect to server 
+
+/*for new install and run need some command to run this project
+
+run project 
+npm start
+
+using post man working its inserted in database
+http://localhost:8003/api/signup
